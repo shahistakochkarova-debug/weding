@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Бунед & Сельби — Приглашение</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Great+Vibes&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- КОНВЕРТ -->
+  <div class="envelope-screen" id="envelopeScreen">
+    <div class="envelope" id="envelope">
+
+      <!-- Верхний клапан -->
+      <div class="envelope-flap">
+        <svg class="flap-ornament" viewBox="0 0 200 60" preserveAspectRatio="none">
+          <path d="M10,55 Q50,10 100,50 Q150,10 190,55" fill="none" stroke="rgba(166,138,100,0.5)" stroke-width="1"/>
+          <path d="M30,55 Q65,25 100,50 Q135,25 170,55" fill="none" stroke="rgba(166,138,100,0.3)" stroke-width="0.8"/>
+        </svg>
+      </div>
+
+      <!-- Тело конверта -->
+      <div class="envelope-body">
+
+        <!-- Золотая рамка -->
+        <div class="envelope-frame"></div>
+
+        <!-- Узоры по углам -->
+        <svg class="corner corner-tl" viewBox="0 0 100 100">
+          <path d="M5,5 Q5,50 50,50 M5,5 Q50,5 50,50 M15,15 Q35,15 35,35 M15,15 Q15,35 35,35 M5,5 L60,5 L5,60 Z" fill="none" stroke="rgba(166,138,100,0.6)" stroke-width="1.2"/>
+          <circle cx="5" cy="5" r="2.5" fill="rgba(166,138,100,0.8)"/>
+        </svg>
+        <svg class="corner corner-tr" viewBox="0 0 100 100">
+          <path d="M5,5 Q5,50 50,50 M5,5 Q50,5 50,50 M15,15 Q35,15 35,35 M15,15 Q15,35 35,35 M5,5 L60,5 L5,60 Z" fill="none" stroke="rgba(166,138,100,0.6)" stroke-width="1.2"/>
+          <circle cx="5" cy="5" r="2.5" fill="rgba(166,138,100,0.8)"/>
+        </svg>
+        <svg class="corner corner-bl" viewBox="0 0 100 100">
+          <path d="M5,5 Q5,50 50,50 M5,5 Q50,5 50,50 M15,15 Q35,15 35,35 M15,15 Q15,35 35,35 M5,5 L60,5 L5,60 Z" fill="none" stroke="rgba(166,138,100,0.6)" stroke-width="1.2"/>
+          <circle cx="5" cy="5" r="2.5" fill="rgba(166,138,100,0.8)"/>
+        </svg>
+        <svg class="corner corner-br" viewBox="0 0 100 100">
+          <path d="M5,5 Q5,50 50,50 M5,5 Q50,5 50,50 M15,15 Q35,15 35,35 M15,15 Q15,35 35,35 M5,5 L60,5 L5,60 Z" fill="none" stroke="rgba(166,138,100,0.6)" stroke-width="1.2"/>
+          <circle cx="5" cy="5" r="2.5" fill="rgba(166,138,100,0.8)"/>
+        </svg>
+
+        <!-- Вязь сверху и снизу -->
+        <svg class="body-ornament body-ornament-top" viewBox="0 0 200 30">
+          <path d="M0,15 Q30,0 60,15 T120,15 T180,15 T240,15" fill="none" stroke="rgba(166,138,100,0.35)" stroke-width="0.8"/>
+          <circle cx="100" cy="15" r="3" fill="none" stroke="rgba(166,138,100,0.5)" stroke-width="1"/>
+          <circle cx="100" cy="15" r="1.2" fill="rgba(166,138,100,0.6)"/>
+        </svg>
+        <svg class="body-ornament body-ornament-bottom" viewBox="0 0 200 30">
+          <path d="M0,15 Q30,30 60,15 T120,15 T180,15 T240,15" fill="none" stroke="rgba(166,138,100,0.35)" stroke-width="0.8"/>
+          <circle cx="100" cy="15" r="3" fill="none" stroke="rgba(166,138,100,0.5)" stroke-width="1"/>
+          <circle cx="100" cy="15" r="1.2" fill="rgba(166,138,100,0.6)"/>
+        </svg>
+
+        <!-- Надпись под печатью -->
+        <p class="envelope-caption">Приглашение на свадьбу</p>
+      </div>
+
+      <!-- Восковая печать -->
+      <div class="wax-seal">
+        <div class="seal-inner">
+          <span class="seal-text">
+            <span class="seal-letter">Б</span>
+            <span class="seal-amp">&amp;</span>
+            <span class="seal-letter">С</span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+    <p class="tap-hint">Нажмите, чтобы открыть</p>
+  </div>
+
+  <!-- ПРИГЛАШЕНИЕ -->
+  <div class="invitation" id="invitation">
+    <div class="invitation-content">
+
+      <p class="top-text">Мы приглашаем вас на нашу свадьбу</p>
+
+      <h1 class="names">
+        <span class="name">Бунед</span>
+        <span class="amp">&amp;</span>
+        <span class="name">Сельби</span>
+      </h1>
+
+      <div class="divider">❦</div>
+
+      <div class="date-block">
+        <div class="date-day">Понедельник</div>
+        <div class="date-main">
+          <span class="date-num">14</span>
+          <span class="date-sep">|</span>
+          <span class="date-month">Декабря</span>
+          <span class="date-sep">|</span>
+          <span class="date-year">2026</span>
+        </div>
+        <div class="date-time">в 18:00</div>
+      </div>
+
+      <div class="divider">❦</div>
+
+      <div class="info-section">
+        <h2>Место проведения</h2>
+        <p class="place">Nurana gije</p>
+        <a class="map-btn" href="https://yandex.ru/maps/?text=Nurana%20gije" target="_blank">Открыть на карте</a>
+      </div>
+
+      <div class="divider">❦</div>
+
+      <div class="info-section">
+        <h2>Дресс-код</h2>
+        <p>Мы будем рады, если вы поддержите палитру нашей свадьбы:</p>
+        <div class="palette">
+          <span style="background:#c9b8a8"></span>
+          <span style="background:#e8dcc8"></span>
+          <span style="background:#a68a64"></span>
+          <span style="background:#6b705c"></span>
+          <span style="background:#3d3529"></span>
+        </div>
+        <p class="small">Пожалуйста, избегайте белого и чёрного цвета.</p>
+      </div>
+
+      <div class="divider">❦</div>
+
+      <div class="info-section">
+        <h2>О подарках</h2>
+        <p>Ваше присутствие — лучший подарок для нас 💛<br>
+        Но если вы хотите нас порадовать, мы будем благодарны за вклад в наше свадебное путешествие.</p>
+      </div>
+
+      <div class="divider">❦</div>
+
+      <div class="info-section">
+        <h2>Подтверждение</h2>
+        <p>Пожалуйста, сообщите о своём присутствии:</p>
+        <a class="map-btn" href="tel:+79990000000">Позвонить</a>
+        <a class="map-btn" href="https://wa.me/79990000000" target="_blank">WhatsApp</a>
+      </div>
+
+      <div class="divider">❦</div>
+
+      <p class="footer-text">С любовью,<br><span class="signature">Бунед и Сельби</span></p>
+
+    </div>
+  </div>
+
+  <!-- МУЗЫКА -->
+  <audio id="bgMusic" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-btn" id="musicBtn" title="Музыка">♪</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
